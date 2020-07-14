@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="url" value="http://localhost:3001"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.stepperform.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.stepperform.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

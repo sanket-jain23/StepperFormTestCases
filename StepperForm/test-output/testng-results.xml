@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7300" started-at="2020-07-14T05:05:39Z" finished-at="2020-07-14T05:05:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7300" started-at="2020-07-14T05:05:39Z" finished-at="2020-07-14T05:05:46Z">
+      <class name="com.stepperform.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.stepperform.testcases.LoginPageTest@e48239c3]" name="setup" is-config="true" duration-ms="6242" started-at="2020-07-14T05:05:39Z" finished-at="2020-07-14T05:05:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:3001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.stepperform.testcases.LoginPageTest@e48239c3]" name="setup" is-config="true" duration-ms="3" started-at="2020-07-14T05:05:45Z" finished-at="2020-07-14T05:05:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.stepperform.testcases.LoginPageTest@e48239c3]" name="login" duration-ms="439" started-at="2020-07-14T05:05:45Z" finished-at="2020-07-14T05:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stepperform.testcases.LoginPageTest@e48239c3]" name="tearDown" is-config="true" duration-ms="587" started-at="2020-07-14T05:05:46Z" finished-at="2020-07-14T05:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.stepperform.testcases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
