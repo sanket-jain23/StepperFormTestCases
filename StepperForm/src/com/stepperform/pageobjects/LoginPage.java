@@ -8,13 +8,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class LoginPage {
 	WebDriver driver;
 	
-	WebDriverWait wait;
+	
 	
 	By email = By.id("email");
 	
 	By passwrod = By.id("password");
 	
-	By login = By.cssSelector("button[value=Login]");	
+	By login = By.cssSelector("button[value=Login]");
 	
 	public LoginPage(WebDriver driver2) {
 		
@@ -24,6 +24,8 @@ public class LoginPage {
 
 
 	public Boolean login(String userId, String passcode) throws Exception{
+		WebDriverWait wait = new WebDriverWait(driver, 5);
+		
 		driver.findElement(email).sendKeys(userId);
 		
 		driver.findElement(passwrod).sendKeys(passcode);

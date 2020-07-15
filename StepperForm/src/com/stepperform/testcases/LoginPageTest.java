@@ -22,17 +22,19 @@ public class LoginPageTest extends BasePage{
 	
 	@Test
 	public void login() {
+	
 		
-		try {
-			LoginPage login = new LoginPage(driver);
-			
-			Boolean result = login.login("sanket@infy.com", "sanket123");
-			
-			Assert.assertTrue(result);
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			System.out.println("The error message says: " + e.getMessage());
-		}
+			try {
+				LoginPage login = new LoginPage(driver);
+				
+				Boolean result = login.login("sanket@infy.com", "sanket123");
+				
+				Assert.assertTrue(result);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				System.out.println("The error message says: "+e.getMessage());
+			}		
+		
 		
 	}
 }
