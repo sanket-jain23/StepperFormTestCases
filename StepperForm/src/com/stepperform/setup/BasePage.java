@@ -3,8 +3,8 @@ package com.stepperform.setup;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
 public class BasePage {
@@ -25,13 +25,13 @@ public class BasePage {
 		driver.manage().window().maximize();
 	}
 	
-	@BeforeClass
+	@BeforeSuite
 	@Parameters({"browser", "url"})
 	public void setup(String browser, String url) {
 		this.Initialize(browser, url);
 	}
 	
-	@AfterClass
+	@AfterSuite
 	public void tearDown() {
 		driver.quit();
 	}

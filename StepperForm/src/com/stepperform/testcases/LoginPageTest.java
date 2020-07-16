@@ -2,6 +2,7 @@ package com.stepperform.testcases;
 
 
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -31,10 +32,28 @@ public class LoginPageTest extends BasePage{
 				
 				Assert.assertTrue(result);
 			} catch (Exception e) {
-				// TODO Auto-generated catch block
 				System.out.println("The error message says: "+e.getMessage());
 			}		
 		
 		
+	}
+	
+	@Test
+	public void loginInvlaid() {
+		try {
+			LoginPage login = new LoginPage(driver);
+			
+			Boolean result = login.loginInvalid("karan@infy.com", "karan123");
+			
+			Assert.assertTrue(result);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			System.out.println("The error message says: "+e.getMessage());
+		}
+	}
+	
+	@AfterClass
+	public void back() {
+		driver.navigate().back();
 	}
 }
