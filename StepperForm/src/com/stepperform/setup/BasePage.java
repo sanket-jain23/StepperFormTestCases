@@ -3,20 +3,18 @@ package com.stepperform.setup;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
 public class BasePage {
 	
-	private WebDriver driver;
+	protected WebDriver driver;
 	
-	public WebDriver getDriver() {
-		return driver;
-	}
 	
 	public void Initialize(String browser, String url) {
-		System.setProperty("webdriver.chrome.driver","E:\\Sanket\\Career\\Java\\Drivers\\Chrome\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver","E:\\Sanket\\Career\\Java\\Drivers\\Chrome\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\RASHMIKA\\Desktop\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		
@@ -25,13 +23,14 @@ public class BasePage {
 		driver.manage().window().maximize();
 	}
 	
-	@BeforeSuite
+	@BeforeMethod
 	@Parameters({"browser", "url"})
 	public void setup(String browser, String url) {
 		this.Initialize(browser, url);
 	}
 	
-	@AfterSuite
+
+	@AfterMethod
 	public void tearDown() {
 		driver.quit();
 	}
