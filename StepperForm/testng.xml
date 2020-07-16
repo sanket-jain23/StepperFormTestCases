@@ -8,6 +8,7 @@
   <test thread-count="5" name="Test">  	
     <classes>
       <class name="com.stepperform.testcases.LoginPageTest"/>
+      <!--<class name="com.stepperform.testcases.VehicleInfoTest"/>-->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

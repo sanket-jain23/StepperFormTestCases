@@ -13,12 +13,12 @@ import junit.framework.Assert;
 @SuppressWarnings("deprecation")
 public class LoginPageTest extends BasePage{
 
-	WebDriver driver;
+//	WebDriver driver;
 	
-	@BeforeClass
-	public void setup() {
-		driver = getDriver();
-	}
+//	@BeforeClass
+//	public void setup() {
+//		driver = getDriver();
+//	}
 	
 	@Test
 	public void login() {
