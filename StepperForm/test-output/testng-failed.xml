@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [StepperFormSuite]">
   <parameter name="browser" value="Chrome"/>
   <parameter name="url" value="http://localhost:3001"/>
-  <test thread-count="5" name="VehicleInfoTest(failed)">
+  <test thread-count="5" name="InuringPartyTest(failed)">
     <classes>
-      <class name="com.stepperform.testcases.VehicleInfoTest">
+      <class name="com.stepperform.testcases.InsuringPartyTest">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="vehicleInfoValid"/>
+          <include name="valid"/>
         </methods>
-      </class> <!-- com.stepperform.testcases.VehicleInfoTest -->
+      </class> <!-- com.stepperform.testcases.InsuringPartyTest -->
     </classes>
-  </test> <!-- VehicleInfoTest(failed) -->
+  </test> <!-- InuringPartyTest(failed) -->
 </suite> <!-- Failed suite [StepperFormSuite] -->

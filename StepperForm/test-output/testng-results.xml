@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="StepperFormSuite" duration-ms="40860" started-at="2020-07-21T06:17:45Z" finished-at="2020-07-21T06:18:26Z">
+  <suite name="StepperFormSuite" duration-ms="47301" started-at="2020-07-21T07:42:27Z" finished-at="2020-07-21T07:43:14Z">
     <groups>
     </groups>
-    <test name="LoginTest" duration-ms="18743" started-at="2020-07-21T06:17:45Z" finished-at="2020-07-21T06:18:04Z">
+    <test name="LoginTest" duration-ms="18850" started-at="2020-07-21T07:42:27Z" finished-at="2020-07-21T07:42:46Z">
       <class name="com.stepperform.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.stepperform.testcases.LoginPageTest@2a7ba346]" name="setup" is-config="true" duration-ms="5738" started-at="2020-07-21T06:17:45Z" finished-at="2020-07-21T06:17:51Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.stepperform.testcases.LoginPageTest@81808edb]" name="setup" is-config="true" duration-ms="6019" started-at="2020-07-21T07:42:27Z" finished-at="2020-07-21T07:42:33Z">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginInvlaid()[pri:1, instance:com.stepperform.testcases.LoginPageTest@2a7ba346]" name="loginInvlaid" duration-ms="1068" started-at="2020-07-21T06:17:51Z" finished-at="2020-07-21T06:17:52Z">
+        <test-method status="PASS" signature="loginInvlaid()[pri:1, instance:com.stepperform.testcases.LoginPageTest@81808edb]" name="loginInvlaid" duration-ms="1122" started-at="2020-07-21T07:42:33Z" finished-at="2020-07-21T07:42:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvlaid -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stepperform.testcases.LoginPageTest@2a7ba346]" name="tearDown" is-config="true" duration-ms="774" started-at="2020-07-21T06:17:52Z" finished-at="2020-07-21T06:17:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stepperform.testcases.LoginPageTest@81808edb]" name="tearDown" is-config="true" duration-ms="585" started-at="2020-07-21T07:42:34Z" finished-at="2020-07-21T07:42:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.stepperform.testcases.LoginPageTest@2a7ba346]" name="setup" is-config="true" duration-ms="5331" started-at="2020-07-21T06:17:53Z" finished-at="2020-07-21T06:17:58Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.stepperform.testcases.LoginPageTest@81808edb]" name="setup" is-config="true" duration-ms="5257" started-at="2020-07-21T07:42:35Z" finished-at="2020-07-21T07:42:40Z">
           <params>
             <param index="0">
               <value>
@@ -47,19 +47,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:2, instance:com.stepperform.testcases.LoginPageTest@2a7ba346]" name="login" duration-ms="5180" started-at="2020-07-21T06:17:58Z" finished-at="2020-07-21T06:18:03Z">
+        <test-method status="PASS" signature="login()[pri:2, instance:com.stepperform.testcases.LoginPageTest@81808edb]" name="login" duration-ms="5079" started-at="2020-07-21T07:42:40Z" finished-at="2020-07-21T07:42:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stepperform.testcases.LoginPageTest@2a7ba346]" name="tearDown" is-config="true" duration-ms="630" started-at="2020-07-21T06:18:03Z" finished-at="2020-07-21T06:18:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stepperform.testcases.LoginPageTest@81808edb]" name="tearDown" is-config="true" duration-ms="754" started-at="2020-07-21T07:42:45Z" finished-at="2020-07-21T07:42:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.stepperform.testcases.LoginPageTest -->
     </test> <!-- LoginTest -->
-    <test name="VehicleInfoTest" duration-ms="22091" started-at="2020-07-21T06:18:04Z" finished-at="2020-07-21T06:18:26Z">
+    <test name="VehicleInfoTest" duration-ms="22426" started-at="2020-07-21T07:42:46Z" finished-at="2020-07-21T07:43:08Z">
       <class name="com.stepperform.testcases.VehicleInfoTest">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.stepperform.testcases.VehicleInfoTest@79caeb51]" name="setup" is-config="true" duration-ms="5206" started-at="2020-07-21T06:18:04Z" finished-at="2020-07-21T06:18:09Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.stepperform.testcases.VehicleInfoTest@706ee979]" name="setup" is-config="true" duration-ms="5458" started-at="2020-07-21T07:42:46Z" finished-at="2020-07-21T07:42:51Z">
           <params>
             <param index="0">
               <value>
@@ -75,15 +75,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="vehicleInfoValid()[pri:0, instance:com.stepperform.testcases.VehicleInfoTest@79caeb51]" name="vehicleInfoValid" duration-ms="16260" started-at="2020-07-21T06:18:09Z" finished-at="2020-07-21T06:18:26Z">
+        <test-method status="PASS" signature="vehicleInfoValid()[pri:0, instance:com.stepperform.testcases.VehicleInfoTest@706ee979]" name="vehicleInfoValid" duration-ms="16379" started-at="2020-07-21T07:42:51Z" finished-at="2020-07-21T07:43:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vehicleInfoValid -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stepperform.testcases.VehicleInfoTest@79caeb51]" name="tearDown" is-config="true" duration-ms="614" started-at="2020-07-21T06:18:26Z" finished-at="2020-07-21T06:18:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stepperform.testcases.VehicleInfoTest@706ee979]" name="tearDown" is-config="true" duration-ms="584" started-at="2020-07-21T07:43:08Z" finished-at="2020-07-21T07:43:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.stepperform.testcases.VehicleInfoTest -->
     </test> <!-- VehicleInfoTest -->
+    <test name="InuringPartyTest" duration-ms="5965" started-at="2020-07-21T07:43:08Z" finished-at="2020-07-21T07:43:14Z">
+      <class name="com.stepperform.testcases.InsuringPartyTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.stepperform.testcases.InsuringPartyTest@616a4539]" name="setup" is-config="true" duration-ms="5183" started-at="2020-07-21T07:43:08Z" finished-at="2020-07-21T07:43:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:3001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="valid()[pri:0, instance:com.stepperform.testcases.InsuringPartyTest@616a4539]" name="valid" duration-ms="2" started-at="2020-07-21T07:43:13Z" finished-at="2020-07-21T07:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stepperform.testcases.InsuringPartyTest@616a4539]" name="tearDown" is-config="true" duration-ms="775" started-at="2020-07-21T07:43:13Z" finished-at="2020-07-21T07:43:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.stepperform.testcases.InsuringPartyTest -->
+    </test> <!-- InuringPartyTest -->
   </suite> <!-- StepperFormSuite -->
 </testng-results>

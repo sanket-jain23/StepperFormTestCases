@@ -19,6 +19,12 @@
       <!--<class name="com.stepperform.testcases.VehicleInfoTest"/>-->
     </classes>
   </test>
+  <test thread-count="5" name="InuringPartyTest">  	
+    <classes>
+      <class name="com.stepperform.testcases.InsuringPartyTest"/>
+      <!--<class name="com.stepperform.testcases.VehicleInfoTest"/>-->
+    </classes>
+  </test>
  <!-- Test -->
 </suite> 
 <!-- Suite -->
