@@ -14,7 +14,7 @@ private WebDriver driver;
 	By btn=By.cssSelector("button[type=submit]");
 	By outside=By.id("DrivingYes");
 	By inside=By.id("DrivingNo");
-	By title=By.tagName("strong");
+	By title=By.tagName("body");
 //	By emptyCertificationError=By.xpath("//*[@id=\"cdk-step-content-0-0\"]/app-v-info/form/div[2]/div[2]/div/div");
 //	By incorrectRegistrationError=By.xpath("//*[@id=\"cdk-step-content-0-0\"]/app-v-info/form/div[1]/div[2]/div/div");
 	
@@ -84,9 +84,11 @@ private WebDriver driver;
     	
     }
     
-    public String getTitle() {
+    public Boolean getTitle() {
     	String text=driver.findElement(title).getText();
-    	return text;
+    	if ( text.contains("Insuring Party") )
+    		return true;
+    	return false;
     }
     
 //    public String getEmptyValueErrorMessage() {

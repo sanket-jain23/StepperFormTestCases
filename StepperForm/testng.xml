@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-
+<!-- Suite -->
+<suite name="StepperFormSuite">
+	<!-- Parameters -->
 	<parameter name="browser" value="Chrome"></parameter>
   	<parameter name="url" value="http://localhost:3001"></parameter>
-  	
-  <test thread-count="5" name="Test">  	
+  	<!-- Parameters -->
+ <!-- Test --> 	
+  <test thread-count="5" name="LoginTest">  	
     <classes>
       <class name="com.stepperform.testcases.LoginPageTest"/>
       <!--<class name="com.stepperform.testcases.VehicleInfoTest"/>-->
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test>
+  <test thread-count="5" name="VehicleInfoTest">  	
+    <classes>
+      <class name="com.stepperform.testcases.VehicleInfoTest"/>
+      <!--<class name="com.stepperform.testcases.VehicleInfoTest"/>-->
+    </classes>
+  </test>
+ <!-- Test -->
+</suite> 
+<!-- Suite -->

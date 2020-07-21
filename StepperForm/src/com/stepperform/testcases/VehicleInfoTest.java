@@ -25,12 +25,12 @@ public class VehicleInfoTest extends BasePage{
 	  Thread.sleep(5000);
 	  Boolean value=vInfo.setButton(true);
 	  Thread.sleep(5000);
-	  String text=vInfo.getTitle();
+	  Boolean text=vInfo.getTitle();
 	  
 	  System.out.println("Is button enabled: "+value);
 	  System.out.println("Submit successful.Moves to the insuring party page.");
 	  
-	  System.out.println("The title of next page : "+text);
-	  Assert.assertEquals("Insuring Party", text);
+//	  System.out.println("The title of next page : "+text);
+	  Assert.assertTrue(text);
   }
 }
