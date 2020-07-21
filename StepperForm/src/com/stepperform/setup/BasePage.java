@@ -13,8 +13,8 @@ public class BasePage {
 	
 	
 	public void Initialize(String browser, String url) {
-		//System.setProperty("webdriver.chrome.driver","E:\\Sanket\\Career\\Java\\Drivers\\Chrome\\chromedriver.exe");
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\RASHMIKA\\Desktop\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","E:\\Sanket\\Career\\Java\\Drivers\\Chrome\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\RASHMIKA\\Desktop\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		

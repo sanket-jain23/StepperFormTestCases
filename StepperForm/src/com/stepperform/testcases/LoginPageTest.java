@@ -1,7 +1,6 @@
 package com.stepperform.testcases;
 
 
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
 import com.stepperform.pageobjects.LoginPage;
@@ -19,7 +18,7 @@ public class LoginPageTest extends BasePage{
 //		driver = getDriver();
 //	}
 	
-	@Test
+	@Test( priority = 2 )
 	public void login() {
 	
 		
@@ -36,7 +35,7 @@ public class LoginPageTest extends BasePage{
 		
 	}
 	
-	@Test
+	@Test(priority = 1)
 	public void loginInvlaid() {
 		try {
 			LoginPage login = new LoginPage(driver);
@@ -50,8 +49,4 @@ public class LoginPageTest extends BasePage{
 		}
 	}
 	
-	@AfterClass
-	public void back() {
-		driver.navigate().back();
-	}
 }

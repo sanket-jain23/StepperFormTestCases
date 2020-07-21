@@ -2,24 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite name="Suite" duration-ms="5713" started-at="2020-07-16T05:10:35Z" finished-at="2020-07-16T05:10:40Z">
-=======
-  <suite name="Suite" duration-ms="41948" started-at="2020-07-16T06:21:17Z" finished-at="2020-07-16T06:21:59Z">
->>>>>>> branch 'master' of https://github.com/sanket-jain23/StepperFormTestCases.git
+  <suite name="Suite" duration-ms="19701" started-at="2020-07-21T05:47:22Z" finished-at="2020-07-21T05:47:42Z">
     <groups>
     </groups>
-<<<<<<< HEAD
-    <test name="Test" duration-ms="5713" started-at="2020-07-16T05:10:35Z" finished-at="2020-07-16T05:10:40Z">
-=======
-    <test name="Test" duration-ms="41948" started-at="2020-07-16T06:21:17Z" finished-at="2020-07-16T06:21:59Z">
->>>>>>> branch 'master' of https://github.com/sanket-jain23/StepperFormTestCases.git
+    <test name="Test" duration-ms="19701" started-at="2020-07-21T05:47:22Z" finished-at="2020-07-21T05:47:42Z">
       <class name="com.stepperform.testcases.LoginPageTest">
-<<<<<<< HEAD
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.stepperform.testcases.LoginPageTest@529f320e]" name="setup" is-config="true" duration-ms="9099" started-at="2020-07-16T05:10:25Z" finished-at="2020-07-16T05:10:35Z">
-=======
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.stepperform.testcases.LoginPageTest@e20f5150]" name="setup" is-config="true" duration-ms="34652" started-at="2020-07-16T06:21:17Z" finished-at="2020-07-16T06:21:52Z">
->>>>>>> branch 'master' of https://github.com/sanket-jain23/StepperFormTestCases.git
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.stepperform.testcases.LoginPageTest@527cdedc]" name="setup" is-config="true" duration-ms="6536" started-at="2020-07-21T05:47:22Z" finished-at="2020-07-21T05:47:29Z">
           <params>
             <param index="0">
               <value>
@@ -35,31 +23,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-<<<<<<< HEAD
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.stepperform.testcases.LoginPageTest@529f320e]" name="setup" is-config="true" duration-ms="1" started-at="2020-07-16T05:10:35Z" finished-at="2020-07-16T05:10:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.stepperform.testcases.LoginPageTest@529f320e]" name="login" duration-ms="5394" started-at="2020-07-16T05:10:35Z" finished-at="2020-07-16T05:10:40Z">
-=======
-        <test-method status="PASS" signature="login()[pri:0, instance:com.stepperform.testcases.LoginPageTest@e20f5150]" name="login" duration-ms="6297" started-at="2020-07-16T06:21:52Z" finished-at="2020-07-16T06:21:58Z">
->>>>>>> branch 'master' of https://github.com/sanket-jain23/StepperFormTestCases.git
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-<<<<<<< HEAD
-        <test-method status="PASS" signature="loginInvlaid()[pri:0, instance:com.stepperform.testcases.LoginPageTest@529f320e]" name="loginInvlaid" duration-ms="69" started-at="2020-07-16T05:10:40Z" finished-at="2020-07-16T05:10:40Z">
+        <test-method status="PASS" signature="loginInvlaid()[pri:1, instance:com.stepperform.testcases.LoginPageTest@527cdedc]" name="loginInvlaid" duration-ms="1082" started-at="2020-07-21T05:47:29Z" finished-at="2020-07-21T05:47:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvlaid -->
-        <test-method status="PASS" signature="back()[pri:0, instance:com.stepperform.testcases.LoginPageTest@529f320e]" name="back" is-config="true" duration-ms="166" started-at="2020-07-16T05:10:40Z" finished-at="2020-07-16T05:10:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stepperform.testcases.LoginPageTest@527cdedc]" name="tearDown" is-config="true" duration-ms="855" started-at="2020-07-21T05:47:30Z" finished-at="2020-07-21T05:47:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- back -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stepperform.testcases.LoginPageTest@529f320e]" name="tearDown" is-config="true" duration-ms="918" started-at="2020-07-16T05:10:40Z" finished-at="2020-07-16T05:10:41Z">
-=======
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stepperform.testcases.LoginPageTest@e20f5150]" name="tearDown" is-config="true" duration-ms="977" started-at="2020-07-16T06:21:58Z" finished-at="2020-07-16T06:21:59Z">
->>>>>>> branch 'master' of https://github.com/sanket-jain23/StepperFormTestCases.git
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.stepperform.testcases.LoginPageTest@527cdedc]" name="setup" is-config="true" duration-ms="5312" started-at="2020-07-21T05:47:30Z" finished-at="2020-07-21T05:47:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:3001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:2, instance:com.stepperform.testcases.LoginPageTest@527cdedc]" name="login" duration-ms="5238" started-at="2020-07-21T05:47:36Z" finished-at="2020-07-21T05:47:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stepperform.testcases.LoginPageTest@527cdedc]" name="tearDown" is-config="true" duration-ms="642" started-at="2020-07-21T05:47:41Z" finished-at="2020-07-21T05:47:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

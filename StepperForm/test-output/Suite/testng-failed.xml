@@ -5,13 +5,13 @@
   <parameter name="url" value="http://localhost:3001"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.stepperform.testcases.VehicleInfoTest">
+      <class name="com.stepperform.testcases.LoginPageTest">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="vehicleInfoValid"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.stepperform.testcases.VehicleInfoTest -->
+      </class> <!-- com.stepperform.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
